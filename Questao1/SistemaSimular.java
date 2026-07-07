@@ -30,11 +30,10 @@ public class SistemaSimular{
                 else if (i < maior){
                     menor = i;
                 }
-
                 apoio += i;
                 soma = apoio / tamFila;
-
             }
+            
             System.out.println("A quantidade de números digitados é: " + tamFila);
             System.out.println("O maior número digitado é: " + maior);
             System.out.println("O menor número digitado é: " + menor);

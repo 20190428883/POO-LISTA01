@@ -12,6 +12,7 @@ public class DistanciaHamming {
                 distancia++;
             }
         }
+        
         return distancia;
     }  
 }
